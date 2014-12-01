@@ -1,0 +1,28 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+@font-face {
+	font-family: 'Tomato';
+	font-style: normal;
+	font-weight: 400;
+	src: url(http://localhost/plasma/wp-includes/fonts/plasma_fonts/TomatoRoundCondensed.ttf);
+}
+@font-face {
+	font-family: 'Courier';
+	font-style: normal;
+	font-weight: 400;
+	src: url(http://localhost/plasma/wp-includes/fonts/plasma_fonts/CourierNew.ttf);
+}
+h1,h2,h3,h4,h6{
+	font-family: 'Tomato' sans-serif !important;
+}
+.wrapper p,a{
+	font-family: 'Courier' !important;
+}

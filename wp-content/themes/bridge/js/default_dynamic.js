@@ -24,11 +24,13 @@ var content_line_height = 60;
 var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var add_for_admin_bar = 0;
+	header_height = 90;
+	min_header_height_scroll = 60;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
-	logo_height = 2248;
-	logo_width = 3333;
+	logo_height = 77;
+	logo_width = 414;
 	
 	header_top_height = 0;
 var loading_text;
@@ -38,6 +40,7 @@ finished_text = 'No more posts';
 
 var piechartcolor;
 piechartcolor	= "#1abc9c";
+	piechartcolor = "#ffffff";
 
 var geocoder;
 var map;
@@ -87,10 +90,9 @@ function initialize() {
 			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
 			position: google.maps.ControlPosition.LEFT_CENTER
 		},
-				mapTypeId: 'qode_style'
+				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
 	map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-	  map.mapTypes.set('qode_style', qodeMapType);
 	}
 
 function codeAddress(data) {
@@ -115,7 +117,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://localhost/plasma/wp-content/themes/bridge/img/pin.png',
+								icon:  'http://demo.qodeinteractive.com/bridge13/wp-content/themes/bridge/img/pin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -143,7 +145,7 @@ function showContactMap() {
 		codeAddress("");
 		codeAddress("");
 		codeAddress("");
-		codeAddress("");
+		codeAddress("Napa, California, USA");
 	}
 }
 

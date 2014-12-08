@@ -58,7 +58,7 @@
     .service_table_inner li.service_table_title_holder i,
         .q_team .q_team_social_holder .q_social_icon_holder:hover i.simple_social
 	{
-        color: #ffffff !important;
+        color: #868686 !important;
     }
 	h2 a:hover,
 	h3 a:hover,
@@ -86,7 +86,7 @@
 	.blog_large_image_simple .minimalist_date
 	{
 
-		color: #ffffff;
+		color: #868686;
 	}
 
     .box_image_with_border:hover,
@@ -110,7 +110,7 @@
 	.blog_holder article.format-link .post_text:hover .post_text_inner,
 	.blog_holder article.format-quote .post_text:hover .post_text_inner,
         input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
-        border-color: #ffffff    }
+        border-color: #868686    }
 
     .q_icon_list i,
     .q_progress_bar .progress_content,
@@ -158,14 +158,14 @@
 
     	.q_circles_holder .q_circle_inner2:hover,
     input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
-        background-color: #ffffff    }
+        background-color: #868686    }
 
 
     .q_circles_holder .q_circle_inner2:hover,
 	.blog_holder article.format-link .post_text:hover .post_text_inner,
 	.blog_holder article.format-quote .post_text:hover .post_text_inner {
-        background-color: #ffffff !important;
-        border-color: #ffffff !important;
+        background-color: #868686 !important;
+        border-color: #868686 !important;
     }
 
 
@@ -326,7 +326,7 @@
 
     
     body{
-    	    	    	 font-size: 13px;     	font-weight: 300;    }
+    	    	    	 font-size: 16px;     	font-weight: 300;    }
             body,
 		.wrapper,
         .content,
@@ -459,7 +459,7 @@ nav.main_menu > ul > li > a{
 
 nav.main_menu > ul > li > a{
 	 color: #303030; 		font-family: 'Roboto Slab', sans-serif;
-		    		 font-weight: 400; 	 letter-spacing: 3px; 	 text-transform: ; }
+		    		 font-weight: 400; 	 letter-spacing: 3px; 	}
 
 
 
@@ -580,7 +580,7 @@ h6, h6 a {
 					font-weight: 400; 		text-transform: uppercase; }
 
     p{
-    	    	    	font-size: 13px;    	    	    	font-weight: 300;    	    	    }
+    	    	    	font-size: 16px;    	    	    	font-weight: 300;    	    	    }
     .filter_holder ul li span,
     blockquote h5,
     .q_social_icon_holder i.simple_social,
@@ -627,7 +627,7 @@ h6, h6 a {
 
 	.separator.small,
 	.wpb_column>.wpb_wrapper .separator.small {
-		height: 2px;background-color: #ad9263;width: 83px;	}
+		height: 2px;background-color: #868686;width: 83px;	}
 	
 
 
@@ -640,10 +640,9 @@ h6, h6 a {
 input.wpcf7-form-control.wpcf7-submit,
 input.wpcf7-form-control.wpcf7-submit:not([disabled])
 	{
-	color: #ffffff; 		font-family: 'Roboto Slab', sans-serif;
-	
-    	border-color: #ad9263; 
-		font-size: 13px; 					font-weight: 400; 		background-color: #ad9263; 		border-radius: 100px; 		-moz-border-radius: 100px; 		-webkit-border-radius: 100px; 		letter-spacing: 1px; 	}
+	color: #c0c0c0; 	
+    	border-color: #c0c0c0; 
+		font-size: 13px; 					font-weight: 400; 		background-color: #c0c0c0; 		border-radius: 100px; 		-moz-border-radius: 100px; 		-webkit-border-radius: 100px; 		letter-spacing: 1px; 	}
 
 	.qbutton:hover,
 	.qbutton.medium:hover,
@@ -654,7 +653,7 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled])
 	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover
 	{
 	 color: #ffffff; 
-	 border-color: #303030	}
+	 border-color: #868686	}
 
 	.qbutton:hover,
 	#submit_comment:hover,
@@ -663,7 +662,7 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled])
 	.post-password-form input[type='submit']:hover,
 	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover
 	{
-		 background-color: #303030; 			}
+		 background-color: #868686; 			}
 	.qbutton.small{
 
 		font-size: 11px; 								
@@ -675,11 +674,11 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled])
 	}
 	.qbutton.white{
 
-		border-color: #ad9263; 		color: #ffffff; 		background-color: #ad9263; 	}
+		border-color: #868686; 		color: #868686; 		background-color: #f4f4f5; 	}
 	.qbutton.white:hover,
 	.portfolio_slides .hover_feature_holder_inner .qbutton:hover {
 
-		border-color: #303030; 		color: #ffffff; 		background-color: #303030; 	}
+		border-color: #868686; 		color: #ffffff; 		background-color: #868686; 	}
 	.testimonials_holder .flex-direction-nav a{
 		border-radius: 50px;
 	}

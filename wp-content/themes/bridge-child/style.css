@@ -24,9 +24,9 @@ Template: bridge
 	font-style: normal;
 	src: url(../../../wp-includes/fonts/plasma_fonts/Fondel.ttf);
 }
-h1,h2,h3,h4,h6{
+h1,h2,h3,h4,h5,h6{
 	font-family: 'Courier' sans-serif !important;
 }
-.wrapper p,a{
+.wrapper p,a,label{
 	font-family: 'Courier' !important;
 }

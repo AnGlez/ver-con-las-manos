@@ -24,7 +24,7 @@ var content_line_height = 60;
 var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var add_for_admin_bar = 0;
-	header_height = 90;
+	header_height = 70;
 	min_header_height_scroll = 60;
 
 var logo_height = 130; // proya logo height

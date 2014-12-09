@@ -1,4 +1,3 @@
-
 function ajaxSubmitCommentForm(){
 	"use strict";
 
@@ -24,6 +23,8 @@ var content_line_height = 60;
 var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var add_for_admin_bar = 0;
+	header_height = 70;
+	min_header_height_scroll = 60;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
@@ -38,6 +39,7 @@ finished_text = 'No more posts';
 
 var piechartcolor;
 piechartcolor	= "#1abc9c";
+	piechartcolor = "#868686";
 
 var geocoder;
 var map;
@@ -114,7 +116,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://demo.qodeinteractive.com/bridge/wp-content/themes/bridge/img/pin.png',
+								icon:  'http://demo.qodeinteractive.com/bridge13/wp-content/themes/bridge/img/pin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -142,7 +144,7 @@ function showContactMap() {
 		codeAddress("");
 		codeAddress("");
 		codeAddress("");
-		codeAddress("Museum of the City of New York, New York, USA");
+		codeAddress("Napa, California, USA");
 	}
 }
 

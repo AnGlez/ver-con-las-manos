@@ -1,3 +1,4 @@
+
 function ajaxSubmitCommentForm(){
 	"use strict";
 
@@ -23,9 +24,11 @@ var content_line_height = 60;
 var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var add_for_admin_bar = 0;
-	header_height = 70;
+	header_height = 80;
 	min_header_height_scroll = 60;
-
+	scroll_amount_for_sticky = 80;
+        scroll_amount_for_fixed_hiding = 60;
+    
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
 	logo_height = 77;
